@@ -11,7 +11,7 @@ const api = axios.create({
 
 //flask API
 const chatApi = axios.create({
-    baseURL:'http://localhost:8000',
+    baseURL:'https://backend-movie-qj4z.onrender.com',
     headers:{
         'Content-Type' : 'application/json'
     }
